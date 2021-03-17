@@ -1,0 +1,31 @@
+.navbar {
+    text-align: center;
+    font-style: inherit;
+    z-index: 100;
+}
+
+.navbar  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .navbar  ul li {
+    float: left;
+    padding: 15px;
+    border-left: 1px solid rgb(100, 97, 97);
+  background-color: rgb(255, 255, 255);
+  }
+  
+  .navbar  ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #4CAF50;
+  }
